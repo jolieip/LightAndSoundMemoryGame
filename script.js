@@ -2,7 +2,7 @@ const clueHoldTime = 1000;
 const cluePauseTime = 333;
 const nextClueWaitTime = 1000;
 
-var pattern = [2, 2, 4, 3, 2, 1, 2, 4];
+var pattern = [2, 3, 4, 3, 8, 1, 5, 4,6,1,7,8,2];
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
@@ -16,6 +16,7 @@ function startGame() {
   document.getElementById("startBtn").classList.add("hidden");
   document.getElementById("stopBtn").classList.remove("hidden");
   playClueSequence();
+  getRandomIntInclusive(1,8);
 }
 
 function stopGame() {
@@ -29,7 +30,11 @@ const freqMap = {
   1: 261.6,
   2: 329.6,
   3: 392,
-  4: 466.2
+  4: 466.2,
+  5: 280.3,
+  6: 300,
+  7: 503.2,
+  8: 430.8
 };
 function playTone(btn, len) {
   o.frequency.value = freqMap[btn];
@@ -120,5 +125,12 @@ function guess(btn) {
     loseGame();
   }
 }
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
+}
+
 
 console.log();

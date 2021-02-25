@@ -19,8 +19,8 @@ button {
 }
 
 #gameButtonArea > button {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin: 2px;
 }
 
@@ -59,4 +59,37 @@ button {
 #button4:active,
 #button4.lit {
   background: yellow;
+}
+
+#button5 {
+  background: #E6E6FA;
+}
+#button6 {
+  background: #FFA07A;
+}
+#button7 {
+  background: #FFEBCD;
+}
+#button8 {
+  background: #AFEEEE; 
+}
+
+#button5:active,
+#button5.lit {
+  background: #7B68EE;
+}
+
+#button6:active,
+#button6.lit {
+  background: #FF4500;
+}
+
+#button7:active,
+#button7.lit {
+  background: #FFDAB9;
+}
+
+#button8:active,
+#button8.lit {
+  background:#40E0D0;
 }
