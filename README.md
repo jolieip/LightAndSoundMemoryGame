@@ -15,8 +15,11 @@ Name: [JOLIE IP]
 
 [I would add glowing images to the buttons when the user presses them for a better overall user experience. These animations will capture the user's attention and increase their attention span on the game.  I would also explore other musical tones for a more pleasant melody. To increase the difficulty level, I would add more buttons and change the button patterns to confuse the player. When a player wins, I would add some sound effects and release confetti from the top of the screen. Instead of an alert to inform a player of their win or loss, I would implement it across the screen in bold letters to emphasize it with animations.]
 
+**Glitch Links to test the sound and game"
 https://light-and-sound.glitch.me  
 
 https://glitch.com/edit/#!/light-and-sound 
+
+Video walkthrough does not include sound. Please refer to links above to try out the game
 <img src='http://g.recordit.co/Q50x1E5JuJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
