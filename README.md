@@ -11,4 +11,5 @@ Name: [JOLIE IP]
 https://light-and-sound.glitch.me  
 
 https://glitch.com/edit/#!/light-and-sound 
-http://g.recordit.co/Q50x1E5JuJ.gif
+<img src='http://g.recordit.co/Q50x1E5JuJ.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
